@@ -1,0 +1,113 @@
+body {
+    background-color: #e8f4f8; /* Noua culoare de fundal, o nuanță mai deschisă de albastru */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex; /* Face ca header-ul să fie un container flex */
+    justify-content: space-between; /* Aliniază conținutul pe axa orizontală */
+    align-items: center; /* Centrează conținutul pe axa verticală */
+    padding: 10px 20px; /* Adaugă un spațiu în interiorul header-ului */
+    background-color: #333; /* Fundalul pentru header */
+    color: white; /* Culoarea textului */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centrarea butoanelor în bară */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input:not([type="color"]),select,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer pre {
+    margin: 0;
+}
